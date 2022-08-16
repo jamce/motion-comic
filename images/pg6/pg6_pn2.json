@@ -1,0 +1,171 @@
+﻿{"frames": {
+
+"pg6_pn20000":
+{
+	"frame": {"x":2,"y":2,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20001":
+{
+	"frame": {"x":447,"y":2,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20002":
+{
+	"frame": {"x":892,"y":2,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20003":
+{
+	"frame": {"x":1337,"y":2,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20004":
+{
+	"frame": {"x":2,"y":388,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20005":
+{
+	"frame": {"x":447,"y":388,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20006":
+{
+	"frame": {"x":892,"y":388,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20007":
+{
+	"frame": {"x":1337,"y":388,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20008":
+{
+	"frame": {"x":2,"y":774,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20009":
+{
+	"frame": {"x":447,"y":774,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20010":
+{
+	"frame": {"x":892,"y":774,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20011":
+{
+	"frame": {"x":1337,"y":774,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20012":
+{
+	"frame": {"x":2,"y":1160,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20013":
+{
+	"frame": {"x":447,"y":1160,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20014":
+{
+	"frame": {"x":892,"y":1160,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20015":
+{
+	"frame": {"x":1337,"y":1160,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20016":
+{
+	"frame": {"x":2,"y":1546,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20017":
+{
+	"frame": {"x":447,"y":1546,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20018":
+{
+	"frame": {"x":447,"y":1546,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+},
+"pg6_pn20019":
+{
+	"frame": {"x":892,"y":1546,"w":445,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":386},
+	"sourceSize": {"w":445,"h":386}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.1.0.96",
+	"image": "pg6_pn2.jpg",
+	"format": "RGB888x",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

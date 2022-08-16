@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+<title>Digital Addiction</title>
+
+	<script src="scripts/phaser.min.js"></script>
+	
+	<script>
+	window.onbeforeunload = function () {
+      //doLMSSetValue("cmi.core.lesson_status", "completed"); // uncomment this line if you want this activity to be completed with any attempt
+     // SCORMdoLMSCommit();
+      //SCORMdoLMSFinish();
+    };
+	</script>
+  
+  <style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		
+		body,html {
+			height: 100%;
+		}
+		
+		body {
+			padding: 0;
+			margin: 0;
+			background-color: black;
+			width: 100%;
+		}
+		
+		#printBtn {
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			z-index: 100;
+			cursor: pointer;
+			
+			padding: 4px 8px;
+			border-radius: 4px;
+			
+			display: none;
+			
+			text-decoration: none;
+			color: black;
+			
+			max-width: 350px;
+			text-align: right;
+			
+			font-family: 'Arial', 'Helvetica', sans-serif;
+		}
+		
+			#printBtn:hover {
+				background-color: rgba(118,145,255,.5);
+			}
+	</style>
+  
+</head>
+
+<body>
+	
+	<a href="images/pg0/BrainFog_printable.pdf" target="_blank" id="printBtn" onclick="markComplete()">
+		<img id="pdfbtn" src="images/pg0/printable.png" />
+		<span id="mssg" style="display:none">This course is complete. Click the X in the corner of this window to return to the LMS.</span>
+	</a>
+	
+	<script>
+		//function markComplete(){
+			//SCORMsetValue("cmi.core.lesson_status", "completed");
+			//SCORMdoLMSCommit();
+			
+			//document.getElementById("mssg").style.display = "block";
+			//document.getElementById("pdfbtn").style.display = "none";
+			//document.getElementById("printBtn").style.pointerEvents = "none";
+		//}
+	</script>
+
+	<script src="scripts/gameconfig.js"></script>
+	<script src="scripts/SCORM_API.js"></script>
+	<script src="scripts/fontconfig.js"></script>
+	<script src="scripts/BootState.js"></script>
+	<script src="scripts/PreloadState.js"></script>
+	<script src="scripts/LoadNextLevel.js"></script>
+	<script src="scripts/GameState.js"></script>
+	<script src="scripts/HomeState.js"></script>
+	
+	<script src="scripts/PreloadActivity1.js"></script>
+	<script src="scripts/Activity1.js"></script>
+	
+	<script src="scripts/PreloadActivity2.js"></script>
+	<script src="scripts/activity2config.js"></script>
+	<script src="scripts/Activity2.js"></script>
+	
+	<script src="scripts/main.js"></script>
+</body>
+</html>

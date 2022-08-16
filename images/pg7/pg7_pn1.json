@@ -1,0 +1,99 @@
+﻿{"frames": {
+
+"pg7_pn10000":
+{
+	"frame": {"x":2,"y":2,"w":497,"h":714},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":103,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10001":
+{
+	"frame": {"x":499,"y":2,"w":497,"h":714},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":103,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10002":
+{
+	"frame": {"x":996,"y":2,"w":497,"h":714},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":103,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10003":
+{
+	"frame": {"x":1493,"y":2,"w":497,"h":714},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":103,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10004":
+{
+	"frame": {"x":2,"y":716,"w":497,"h":714},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":103,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10005":
+{
+	"frame": {"x":499,"y":716,"w":508,"h":761},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":56,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10006":
+{
+	"frame": {"x":1007,"y":716,"w":497,"h":745},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":72,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10007":
+{
+	"frame": {"x":1504,"y":716,"w":541,"h":789},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":28,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10008":
+{
+	"frame": {"x":2,"y":1505,"w":541,"h":792},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":25,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10009":
+{
+	"frame": {"x":543,"y":1505,"w":541,"h":802},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":15,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+},
+"pg7_pn10010":
+{
+	"frame": {"x":1084,"y":1505,"w":541,"h":806},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":552,"h":817},
+	"sourceSize": {"w":552,"h":817}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.1.0.96",
+	"image": "pg7_pn1.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":4096},
+	"scale": "1"
+}
+}

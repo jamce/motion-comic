@@ -1,0 +1,19 @@
+﻿{"frames": {
+
+"Symbol 3 copy 3 instance 10000":
+{
+	"frame": {"x":2,"y":2,"w":460,"h":709},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":460,"h":709},
+	"sourceSize": {"w":460,"h":709}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.1.0.96",
+	"image": "testpage_1_2.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

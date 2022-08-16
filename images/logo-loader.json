@@ -1,0 +1,203 @@
+﻿{"frames": {
+
+"LogoSpin0000":
+{
+	"frame": {"x":0,"y":0,"w":91,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0001":
+{
+	"frame": {"x":91,"y":0,"w":95,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":7,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0002":
+{
+	"frame": {"x":186,"y":0,"w":101,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0003":
+{
+	"frame": {"x":287,"y":0,"w":89,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0004":
+{
+	"frame": {"x":376,"y":0,"w":77,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0005":
+{
+	"frame": {"x":0,"y":101,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":12,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0006":
+{
+	"frame": {"x":85,"y":101,"w":91,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0007":
+{
+	"frame": {"x":176,"y":101,"w":97,"h":97},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0008":
+{
+	"frame": {"x":273,"y":101,"w":103,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0009":
+{
+	"frame": {"x":376,"y":101,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0010":
+{
+	"frame": {"x":0,"y":206,"w":108,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0011":
+{
+	"frame": {"x":108,"y":206,"w":109,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0012":
+{
+	"frame": {"x":217,"y":206,"w":109,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0013":
+{
+	"frame": {"x":326,"y":206,"w":108,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0014":
+{
+	"frame": {"x":0,"y":315,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0015":
+{
+	"frame": {"x":105,"y":315,"w":103,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0016":
+{
+	"frame": {"x":208,"y":315,"w":97,"h":97},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0017":
+{
+	"frame": {"x":305,"y":315,"w":91,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":8,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0018":
+{
+	"frame": {"x":396,"y":315,"w":85,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":12,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0019":
+{
+	"frame": {"x":0,"y":420,"w":77,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0020":
+{
+	"frame": {"x":77,"y":420,"w":89,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0021":
+{
+	"frame": {"x":166,"y":420,"w":101,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0022":
+{
+	"frame": {"x":267,"y":420,"w":95,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":7,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+},
+"LogoSpin0023":
+{
+	"frame": {"x":362,"y":420,"w":91,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":109,"h":109},
+	"sourceSize": {"w":109,"h":109}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.1.0.96",
+	"image": "logo-loader.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

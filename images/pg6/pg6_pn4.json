@@ -1,0 +1,171 @@
+﻿{"frames": {
+
+"pg6_pn40000":
+{
+	"frame": {"x":2,"y":2,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40001":
+{
+	"frame": {"x":532,"y":2,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40002":
+{
+	"frame": {"x":1062,"y":2,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40003":
+{
+	"frame": {"x":2,"y":531,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40004":
+{
+	"frame": {"x":532,"y":531,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40005":
+{
+	"frame": {"x":1062,"y":531,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40006":
+{
+	"frame": {"x":2,"y":1060,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40007":
+{
+	"frame": {"x":532,"y":1060,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40008":
+{
+	"frame": {"x":1062,"y":1060,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40009":
+{
+	"frame": {"x":2,"y":1589,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40010":
+{
+	"frame": {"x":532,"y":1589,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40011":
+{
+	"frame": {"x":1062,"y":1589,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40012":
+{
+	"frame": {"x":2,"y":2118,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40013":
+{
+	"frame": {"x":532,"y":2118,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40014":
+{
+	"frame": {"x":1062,"y":2118,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40015":
+{
+	"frame": {"x":2,"y":2647,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40016":
+{
+	"frame": {"x":532,"y":2647,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40017":
+{
+	"frame": {"x":1062,"y":2647,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40018":
+{
+	"frame": {"x":2,"y":3176,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+},
+"pg6_pn40019":
+{
+	"frame": {"x":532,"y":3176,"w":530,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":529},
+	"sourceSize": {"w":530,"h":529}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.1.0.96",
+	"image": "pg6_pn4.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":4096},
+	"scale": "1"
+}
+}

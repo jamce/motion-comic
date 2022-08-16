@@ -1,0 +1,179 @@
+﻿{"frames": {
+
+"pg5_pn10000":
+{
+	"frame": {"x":2,"y":2,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10001":
+{
+	"frame": {"x":435,"y":2,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10002":
+{
+	"frame": {"x":868,"y":2,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10003":
+{
+	"frame": {"x":1301,"y":2,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10004":
+{
+	"frame": {"x":2,"y":358,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10005":
+{
+	"frame": {"x":435,"y":358,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10006":
+{
+	"frame": {"x":868,"y":358,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10007":
+{
+	"frame": {"x":1301,"y":358,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10008":
+{
+	"frame": {"x":2,"y":714,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10009":
+{
+	"frame": {"x":435,"y":714,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10010":
+{
+	"frame": {"x":868,"y":714,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10011":
+{
+	"frame": {"x":1301,"y":714,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10012":
+{
+	"frame": {"x":2,"y":1070,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10013":
+{
+	"frame": {"x":435,"y":1070,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10014":
+{
+	"frame": {"x":868,"y":1070,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10015":
+{
+	"frame": {"x":1301,"y":1070,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10016":
+{
+	"frame": {"x":2,"y":1426,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10017":
+{
+	"frame": {"x":435,"y":1426,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10018":
+{
+	"frame": {"x":868,"y":1426,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10019":
+{
+	"frame": {"x":1301,"y":1426,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+},
+"pg5_pn10020":
+{
+	"frame": {"x":1301,"y":1426,"w":433,"h":356},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":433,"h":356},
+	"sourceSize": {"w":433,"h":356}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.1.0.96",
+	"image": "pg5_pn1.jpg",
+	"format": "RGB888x",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
