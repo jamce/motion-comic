@@ -23,7 +23,7 @@ var GameState = {
 		
 		var adjWidth = (pagedata.pageW - window.innerWidth);
 		var adjHeight = (pagedata.pageH - window.innerHeight);
-		game.scale.scaleMode = Phaser.ScaleManager.RESIZE;
+		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 		
 			
 		/**********************************************************************************************

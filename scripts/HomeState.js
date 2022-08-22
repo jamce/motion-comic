@@ -31,7 +31,7 @@ var HomeState = {
 			SCORMdoLMSCommit();
 		}
 		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-		this.game.stage.backgroundColor = '#c3f5fe';	
+		this.game.stage.backgroundColor = '#000000';	
 		
 		var bgmusic = this.game.add.audio('introAudio', 1, true);
 		bgmusic.play();;
