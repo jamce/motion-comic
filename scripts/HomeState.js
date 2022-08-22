@@ -9,7 +9,7 @@ var HomeState = {
 		window.document.getElementById('printBtn').style.display = "block";
 	
 		/* SET BOUNDS ON A WORLD TO A SPECIFIC SIZE */
-		this.game.world.setBounds(0,0,1024,768);	
+		this.game.world.setBounds(0,0,window.innerWidth, window.innerHeight);	
 	
 		SCORMinitialize();
 		

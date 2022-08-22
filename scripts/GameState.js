@@ -17,6 +17,7 @@ var GameState = {
 	
 	create: function(){ 	
 		
+		
 		var pagedata = _gc.pages[_gc.onpage];
 		_gc.onpage++;
 		
@@ -119,7 +120,8 @@ var GameState = {
 		Update background info
 		
 		**********************************************************************************************/
-		
+
+
 		this.game.stage.backgroundColor = pagedata.bgcolor;
 		
 		var bgimage = BG.create(0,0,'bgimage'); // adds the board art to the upper left corner of the screen
