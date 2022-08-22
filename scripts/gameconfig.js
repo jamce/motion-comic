@@ -8,8 +8,8 @@ var _gc = {
 			title: 'Page One',
 			bg: 'chaseman_html_bg_dark.jpg',
 			bgcolor: '#c3f5fe',
-			pageH: 1080,
-			pageW: 1920,
+			pageH: screen.height,
+			pageW: screen.width,
 			pageAudio: 'pg1/noah_scene_music.mp3',
 			panels: [
 
@@ -708,6 +708,7 @@ var _gc = {
 					tweentime: 500, 
 					audio: 'pg5/chaseman_pg5_pn1.mp3',
 					audioKey: 'pg5pnl1'
+					
 				},
 
 				{

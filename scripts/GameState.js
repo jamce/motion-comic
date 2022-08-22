@@ -387,24 +387,12 @@ var GameState = {
 			this.gotoNextState();
 		}.bind(this)
 		
+		
 		function createContinueButton(pan){
 			if (_gc.onpage < _gc.pages.length || onpanel < pagedata.panels.length - 1){
 			
-			var btncont = this.game.add.image(0,0,'btncont');
+			var btncont = this.game.add.image(1100,10,'btncont');
 			FORE.add(btncont);
-			
-			var detRight = window.innerWidth;
-			if (pan.right - adjWidth < detRight){
-				detRight = pan.right - adjWidth;
-			}
-			btncont.right = window.innerWidth - 10;
-			
-			var detBottom = window.innerHeight;
-			if (pan.bottom - adjHeight < detBottom){
-				detBottom = pan.bottom - adjHeight;
-			}
-			btncont.bottom = window.innerHeight - 10;
-			
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(function(btn,pointer,isover){
 				onpanel++;
@@ -414,7 +402,7 @@ var GameState = {
 					console.log("next page");
 					callGoToNextState();
 				}
-				btn.destroy();			
+				//btn.destroy();			
 			});
 			
 			} else {
