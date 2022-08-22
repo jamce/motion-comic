@@ -4,7 +4,8 @@ var SCENE = "Scene One";
 
 var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO);
 
-	
+
+
 game.state.add('GameState', GameState);
 game.state.add('BootState', BootState);
 game.state.add('PreloadState', PreloadState);

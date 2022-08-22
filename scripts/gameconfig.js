@@ -10,7 +10,7 @@ var _gc = {
 			title: 'Page One',
 			bg: 'chaseman_html_bg_dark.jpg',
 			bgcolor: '#c3f5fe',
-			pageH: window.innerHeight,
+			pageH: window.innerHeight, 
 			pageW: window.innerWidth,
 			pageAudio: 'pg1/noah_scene_music.mp3',
 			panels: [

@@ -32,6 +32,7 @@ var HomeState = {
 		}
 		
 		this.game.stage.backgroundColor = '#c3f5fe';
+		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;	
 		
 		var bgmusic = this.game.add.audio('introAudio', 1, true);
 		bgmusic.play();;
