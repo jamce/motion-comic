@@ -35,7 +35,7 @@ var GameState = {
 							font: 'Kalam',
 							fontWeight: 'normal',
 							fontSize: 14,
-							fill: 'black',
+							fill: 'white',
 							align: 'left',
 							wordWrap: true,
 							wordWrapWidth: 300
@@ -45,7 +45,7 @@ var GameState = {
 							font: 'Kalam',
 							fontWeight: 'bold',
 							fontSize: 14,
-							fill: 'black',
+							fill: 'white',
 							align: 'left',
 							wordWrap: true,
 							wordWrapWidth: 300
@@ -212,8 +212,8 @@ var GameState = {
 			
 			var bubb = this.game.add.graphics();
 			bubb.beginFill(0xffffff);
-			bubb.lineStyle(2,0x000000,1);
-			bubb.drawRoundedRect(-30, -15, bubbtext.width + 60, bubbtext.height + 30, 40);
+			bubb.lineStyle(1,0x000000,1);
+			bubb.drawRoundedRect(-40, -12, bubbtext.width + 80, bubbtext.height + 20, 20);
 			bubb.endFill();
 			
 			var tail = this.game.add.image(0,0,'tail');
@@ -265,7 +265,7 @@ var GameState = {
 				newitem.animations.add('playing', Phaser.Animation.generateFrameNames(p.framenames, p.animstart, p.animend, '', p.framelength), 24, p.animloop, false);
 				if (!p.tween) { newitem.animations.play('playing') };
 			} else {
-				newitem = this.game.add.image(0, 0, p.title);
+				newitem = this.game.add.image(0, 0, p.title);		
 			}
 			
 			if (p.sendtoback){
@@ -313,7 +313,7 @@ var GameState = {
 		
 		function renderBox(p){
 		
-			var boxfillcolor = p.fillColor ? p.fillColor : 0xc4fd60;
+			var boxfillcolor = p.fillColor ? p.fillColor : 0x000000;
 			
 			var newbox = this.game.add.group();
 
@@ -326,7 +326,7 @@ var GameState = {
 			var box = this.game.add.graphics();
 			box.beginFill(boxfillcolor);
 			box.fillAlpha = .95;
-			box.lineStyle(2,0x000000,.25);
+			box.lineStyle(2,0xffffff,.25);
 			box.drawRect(-20,-17,boxtext.width + 40, boxtext.height + 30);
 			box.endFill();
 			

@@ -8,24 +8,25 @@ var _gc = {
 			title: 'Page One',
 			bg: 'chaseman_html_bg_dark.jpg',
 			bgcolor: '#c3f5fe',
-			pageH: 768,
-			pageW: 1024,
-			pageAudio: 'pg1/chaseman_pg1_pn1_music.mp3',
+			pageH: 1080,
+			pageW: 1920,
+			pageAudio: 'pg1/noah_scene_music.mp3',
 			panels: [
+
 			
-				{
+			{
 					title: 'p1',
 					type: 'panel',
-					url: 'pg1/pg1_pn1.jpg',
-					json: 'pg1/pg1_pn1.json',
+					url: 'pg1/openingshot.jpg',
+					json: 'pg1/openingshot.json',
 					animated: true,
 					framenames: 'pg1_pn1',
 					animstart: 0,
-					animend: 99,
+					animend: 72,
 					framelength: 4,
 					animloop: false,
-					posX: 20,
-					posY: 30,
+					posX: 200,
+					posY: 160,
 					tween: true,
 					tweenprops: {
 						x: -2000
@@ -38,15 +39,15 @@ var _gc = {
 				{
 					title: 'box1',
 					type: 'box',
-					text: 'The city of |Bankopolis|.',
-					posX: 120,
-					posY: 80,
+					text: 'When time was new...',
+					posX: 200,
+					posY: 160,
 					tween: true,
 					tweenprops: {
 						alpha: 0
 					},
 					tweentime: 500, 
-					audio: 'pg1/chaseman_pg1_pn1.mp3',
+					//audio: 'pg1/chaseman_pg1_pn1.mp3',
 					audioKey: 'pg1pnl1'
 				},
 				
@@ -59,18 +60,18 @@ var _gc = {
 					animated: true,
 					framenames: 'pg1_pn2',
 					animstart: 0,
-					animend: 35,
+					animend: 60,
 					framelength: 4,
 					animloop: false,
-					posX: -108,
-					posY: 280,
+					posX: 160,
+					posY: 360,
 					tween: true,
 					tweenprops: {
 						y: 2000
 					},
 					tweentime: 800,
 					fallback: 'pg1/p1_pnl2_fallback.png', 					
-					audio: 'pg1/chaseman_pg1_pn2.mp3',
+					//audio: 'pg1/chaseman_pg1_pn2.mp3',
 					audioKey: 'pg1pnl2',
 					autocontinue: true
 					
@@ -79,9 +80,9 @@ var _gc = {
 				{
 					title: 'box2',
 					type: 'box',
-					text: 'Kept secrure by hometown heros |CHASEMAN| and |MAJOR SAVE|.',
-					posX: 265,
-					posY: 210,
+					text: 'in the world of |ARA|...',
+					posX: 560,
+					posY: 400,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -89,75 +90,85 @@ var _gc = {
 					tweentime: 500
 				},
 				
+			
+			
 				{
 					title: 'p3',
-					type: 'panel',
-					url: 'pg1/pg1_pn3.jpg',
-					animated: false,
-					sendtoback: true,
-					posX: 450,
-					posY: 312,
-					tween: true,
-					tweenprops: {
-						y: 2000
-					},
-					tweentime: 800,
-					autocontinue: true
-
-				},
-				
-				{
-					title: 'box3',
-					type: 'box',
-					text: 'But even the most |valorous| of |venturers| need…',
-					posX: 560,
-					posY: 255,
-					tween: true,
-					tweenprops: {
-						alpha: 0
-					},
-					tweentime: 500, 
-					audio: 'pg1/chaseman_pg1_pn3.mp3',
-					audioKey: 'pg1pnl3'
-				},
-				
-				{
-					title: 'p4',
 					type: 'panel',
 					url: 'pg1/pg1_pn4.png',
 					json: 'pg1/pg1_pn4.json',
 					animated: true,
 					framenames: 'pg1_pn4',
 					animstart: 0,
-					animend: 49,
+					animend: 130,
 					framelength: 4,
 					animloop: false,
-					posX: 732,
-					posY: 312,
+					posX: 500,
+					posY: 500,
 					tween: true,
 					tweenprops: {
 						y: 2000
 					},
 					tweentime: 800,
-					fallback: 'pg1/p1_pnl4_fallback.png', 
-					audio: 'pg1/chaseman_pg1_pn4_music.mp3',
 					audioKey: 'pg1pnl5',
-					stopPageAudio: true,
+					stopPageAudio: false,
 					autocontinue: true
 				},
 					{
-					title: 'box4',
+					title: 'box3',
 					type: 'box',
-					text: 'A |Vacation!|',
-					posX: 780,
-					posY: 355,
+					text: 'There were |GIANTS|.',
+					posX: 1050,
+					posY: 850,
 					tween: true,
 					tweenprops: {
 						alpha: 0
 					},
 					tweentime: 500, 
-					audio: 'pg1/chaseman_pg1_pn4.mp3',
+					//audio: 'pg1/chaseman_pg1_pn4.mp3',
 					audioKey: 'pg1pnl4'
+				},
+				{
+				title: 'p4',
+					type: 'panel',
+					url: 'pg1/pg1_pn3.png',
+					json: 'pg1/pg1_pn3.json',
+					animated: true,
+					framenames: 'pg1_pn3',
+					animstart: 0,
+					animend: 35,
+					framelength: 4,
+					animloop: false,
+					posX: 1200,
+					posY: 400,
+					tween: true,
+					tweenprops: {
+						x: -2000
+					},
+					tweentime: 1500,
+					fallback: 'pg1/p1_pnl1_fallback.jpg',
+					autocontinue: true
+					
+				},
+				{
+					title: 'bubble1',
+					type: 'bubble',
+					text: "Found |you!|",
+					posX: 1200,
+					posY: 600,
+					direction: 'right',
+					scaleX: .6,
+					scaleY: .6,
+					moveTailX: -7,
+					moveTailY: 6,
+					tween: true,
+					tweenprops: {
+						alpha: 0,
+						y: 50
+					},
+					tweentime: 250,
+					audio: 'pg1/found_you_noah.mp3',
+					audioKey: 'pg1pnl3'
 				},
 								{
 					title: 'TIP',
