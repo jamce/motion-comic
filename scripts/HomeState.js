@@ -30,9 +30,8 @@ var HomeState = {
 			SCORMsetValue("cmi.core.lesson_status", "incomplete");
 			SCORMdoLMSCommit();
 		}
-		
-		this.game.stage.backgroundColor = '#c3f5fe';
-		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;	
+		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+		this.game.stage.backgroundColor = '#c3f5fe';	
 		
 		var bgmusic = this.game.add.audio('introAudio', 1, true);
 		bgmusic.play();;

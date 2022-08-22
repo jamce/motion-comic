@@ -17,13 +17,13 @@ var GameState = {
 	
 	create: function(){ 	
 		
-		
+	
 		var pagedata = _gc.pages[_gc.onpage];
 		_gc.onpage++;
 		
-		var adjWidth = (pagedata.pageW - window.innerWidth) / 2;
-		var adjHeight = (pagedata.pageH - window.innerHeight) / 2;
-		
+		var adjWidth = (pagedata.pageW - window.innerWidth);
+		var adjHeight = (pagedata.pageH - window.innerHeight);
+		game.scale.scaleMode = Phaser.ScaleManager.RESIZE;
 		
 			
 		/**********************************************************************************************
