@@ -4,6 +4,7 @@ var SCENE = "Scene One";
 
 var game = new Phaser.Game(1920, 1080, Phaser.AUTO);
 
+
 game.state.add('GameState', GameState);
 game.state.add('BootState', BootState);
 game.state.add('PreloadState', PreloadState);

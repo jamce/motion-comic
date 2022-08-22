@@ -3,11 +3,12 @@
 
 var BootState = {
 	init: function(){
-		this.scale.scaleMode = Phaser.ScaleManager.FIT;
-		this.scale.fullScreenScaleMode = Phaser.ScaleManager.FIT;
-		this.scale.pageAlignHorizontally = this.scale.pageAlignVertically = false;
+		this.scale.scaleMode = Phaser.ScaleManager.RESIZE;
+		this.scale.fullScreenScaleMode = Phaser.ScaleManager.RESIZE;
+		this.scale.saceAutoCenter = Phaser.ScaleManager.CENTER_BOTH
+		//this.scale.pageAlignHorizontally = this.scale.pageAlignVertically = false;
 		
-		this.game.world.setBounds(0,0,1920,1080);	
+		this.game.world.setBounds(0,0,1024,768);	
 		this.game.width = window.innerWidth;
 		this.game.height = window.innerHeight;
 	},

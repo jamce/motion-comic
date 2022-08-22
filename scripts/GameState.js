@@ -391,8 +391,10 @@ var GameState = {
 		function createContinueButton(pan){
 			if (_gc.onpage < _gc.pages.length || onpanel < pagedata.panels.length - 1){
 			
-			var btncont = this.game.add.image(1100,10,'btncont');
+			var btncont = this.game.add.image(0,0,'btncont');
 			FORE.add(btncont);
+					btncont.x = window.innerWidth/2 - btncont.width/2 + 600;
+		btncont.y = window.innerHeight/2 - btncont.height/2 -400;
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(function(btn,pointer,isover){
 				onpanel++;

@@ -9,7 +9,7 @@ var HomeState = {
 		window.document.getElementById('printBtn').style.display = "block";
 	
 		/* SET BOUNDS ON A WORLD TO A SPECIFIC SIZE */
-		this.game.world.setBounds(0,0,1920,1080);	
+		this.game.world.setBounds(0,0,1024,768);	
 	
 		SCORMinitialize();
 		
@@ -56,8 +56,8 @@ var HomeState = {
 		
 			
 		var btnstart = this.game.add.image(0,0,'btnbegin');
-		btnstart.right = intro.right - 10;
-		btnstart.top = intro.top +30;
+	btnstart.x = window.innerWidth/2 - btnstart.width/2 + 300;
+		btnstart.y = window.innerHeight/2 - btnstart.height/2 -160;
 		
 		btnstart.inputEnabled = true;
 		btnstart.events.onInputUp.addOnce(callGoToNextState);
@@ -77,7 +77,7 @@ var HomeState = {
 		
 			var btncont = this.game.add.image(0,0,'btncontinue');
 			btncont.right = intro.right - 10;
-			btncont.top = btnstart.top +30;
+			btncont.top = btnstart.top + 30;
 			
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(continueNextState);
