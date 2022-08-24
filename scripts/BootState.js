@@ -3,11 +3,14 @@
 
 var BootState = {
 	init: function(){
-		this.scale.scaleMode = Phaser.ScaleManager.RESIZE;
-		this.scale.fullScreenScaleMode = Phaser.ScaleManager.NO_SCALE;
-		this.scale.pageAlignHorizontally = this.scale.pageAlignVertically = false;
-		this.game.width = window.innerWidth;
-		this.game.height = window.innerHeight;
+game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE ;
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
+    game.canvas.style.width = '100%';
+    game.canvas.style.height = '100%';
+    game.scale.refresh();
+		
+		this.game.world.setBounds(0,0,1920,1080);	
 		},
 	
 	preload: function() {

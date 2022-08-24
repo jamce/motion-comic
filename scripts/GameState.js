@@ -2,9 +2,14 @@
 
 var GameState = {
 
-	preload: function(){
-		
-	},
+	preload: function () {
+    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL ;
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
+    game.canvas.style.width = '100%';
+    game.canvas.style.height = '100%';
+    game.scale.refresh();
+},
 
 	init: function(bookmark){ 
 		//bookmark = 's119pC5pF7pB3pW4tC35tF47tB18tW23';
@@ -16,20 +21,15 @@ var GameState = {
 	},
 	
 	create: function(){ 	
-		this.game.world.setBounds(0,0,window.innerWidth, window.innerHeight);	
-		
-	
+		//this.game.world.setBounds(0,0,window.innerWidth, window.innerHeight);	
+	//this.scale.scaleMode = Phaser.ScaleManager.RESIZE;
 		var pagedata = _gc.pages[_gc.onpage];
 		_gc.onpage++;
 		
 		var adjWidth = (pagedata.pageW - window.innerWidth);
 		var adjHeight = (pagedata.pageH - window.innerHeight);
-		this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-		this.scale.fullScreenScaleMode = Phaser.ScaleManager.NO_SCALE;
-		this.scale.pageAlignHorizontally = this.scale.pageAlignVertically = false;
-		this.game.width = window.innerWidth;
-		this.game.height = window.innerHeight;
-		
+
+
 			
 		/**********************************************************************************************
 			TYPOGRAPHY

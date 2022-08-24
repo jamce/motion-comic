@@ -1,16 +1,22 @@
 // JavaScript Document
 
 var HomeState = {
-	preload: function(){
-		
-	},
+ preload: function () {
+    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL ;
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
+    game.canvas.style.width = '100%';
+    game.canvas.style.height = '100%';
+    game.scale.refresh();
+},
 	
 	create: function(){	
 		window.document.getElementById('printBtn').style.display = "block";
 	
 		/* SET BOUNDS ON A WORLD TO A SPECIFIC SIZE */
-		this.game.world.setBounds(0,0,window.innerWidth, window.innerHeight);	
-	
+		this.game.world.setBounds(0,0,1920,1080);	
+
+		
 		SCORMinitialize();
 		
 		var status = SCORMstatuscheck();
@@ -30,7 +36,6 @@ var HomeState = {
 			SCORMsetValue("cmi.core.lesson_status", "incomplete");
 			SCORMdoLMSCommit();
 		}
-		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 		this.game.stage.backgroundColor = '#000000';	
 		
 		var bgmusic = this.game.add.audio('introAudio', 1, true);
@@ -91,6 +96,7 @@ var HomeState = {
 		window.onresize = function(){ 
 			
 		};
+		
 		
 	}, 
 	
