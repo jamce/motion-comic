@@ -27,7 +27,7 @@ var _gc = {
 					animend: 72,
 					framelength: 4,
 					animloop: false,
-					posX: 200,
+					posX: 400,
 					posY: 160,
 					tween: true,
 					tweenprops: {
@@ -42,7 +42,7 @@ var _gc = {
 					title: 'box1',
 					type: 'box',
 					text: 'When time was new...',
-					posX: 200,
+					posX: 380,
 					posY: 160,
 					tween: true,
 					tweenprops: {
@@ -57,7 +57,7 @@ var _gc = {
 				{
 					title: 'p2',
 					type: 'panel',
-					url: 'pg1/pg1_pn2.png',
+					url: 'pg1/pg1_pn2.jpg',
 					json: 'pg1/pg1_pn2.json',
 					animated: true,
 					framenames: 'pg1_pn2',
@@ -65,7 +65,7 @@ var _gc = {
 					animend: 60,
 					framelength: 4,
 					animloop: false,
-					posX: 160,
+					posX: 360,
 					posY: 360,
 					tween: true,
 					tweenprops: {
@@ -83,7 +83,7 @@ var _gc = {
 					title: 'box2',
 					type: 'box',
 					text: 'in the world of |ARA|...',
-					posX: 560,
+					posX: 630,
 					posY: 400,
 					tween: true,
 					tweenprops: {
@@ -97,7 +97,7 @@ var _gc = {
 				{
 					title: 'p3',
 					type: 'panel',
-					url: 'pg1/pg1_pn4.png',
+					url: 'pg1/pg1_pn4.jpg',
 					json: 'pg1/pg1_pn4.json',
 					animated: true,
 					framenames: 'pg1_pn4',
@@ -105,7 +105,7 @@ var _gc = {
 					animend: 130,
 					framelength: 4,
 					animloop: false,
-					posX: 500,
+					posX: 650,
 					posY: 500,
 					tween: true,
 					tweenprops: {
@@ -120,8 +120,8 @@ var _gc = {
 					title: 'box3',
 					type: 'box',
 					text: 'There were |GIANTS|.',
-					posX: 1050,
-					posY: 850,
+					posX: 700,
+					posY: 670,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -141,8 +141,8 @@ var _gc = {
 					animend: 35,
 					framelength: 4,
 					animloop: false,
-					posX: 1200,
-					posY: 400,
+					posX: 1180,
+					posY: 480,
 					tween: true,
 					tweenprops: {
 						x: -2000
@@ -156,8 +156,8 @@ var _gc = {
 					title: 'bubble1',
 					type: 'bubble',
 					text: "Found |you!|",
-					posX: 1200,
-					posY: 600,
+					posX: 1150,
+					posY: 640,
 					direction: 'right',
 					scaleX: .6,
 					scaleY: .6,
