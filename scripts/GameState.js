@@ -16,6 +16,7 @@ var GameState = {
 	},
 	
 	create: function(){ 	
+		this.game.world.setBounds(0,0,window.innerWidth, window.innerHeight);	
 		
 	
 		var pagedata = _gc.pages[_gc.onpage];
@@ -400,7 +401,7 @@ var GameState = {
 			
 			var btncont = this.game.add.image(0,0,'btncont');
 			FORE.add(btncont);
-					btncont.x = window.innerWidth/2 - btncont.width/2 + 600;
+					btncont.x = window.innerWidth/2 - btncont.width/2 + 450;
 		btncont.y = window.innerHeight/2 - btncont.height/2 -400;
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(function(btn,pointer,isover){
