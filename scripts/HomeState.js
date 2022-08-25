@@ -1,22 +1,16 @@
 // JavaScript Document
 
 var HomeState = {
- preload: function () {
-    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL ;
-    game.scale.pageAlignHorizontally = true;
-    game.scale.pageAlignVertically = true;
-    game.canvas.style.width = '100%';
-    game.canvas.style.height = '100%';
-    game.scale.refresh();
-},
+	preload: function(){
+		
+	},
 	
 	create: function(){	
 		window.document.getElementById('printBtn').style.display = "block";
 	
 		/* SET BOUNDS ON A WORLD TO A SPECIFIC SIZE */
-		this.game.world.setBounds(0,0,1920,1080);	
-
-		
+		this.game.world.setBounds(0,0,1024,768);	
+	
 		SCORMinitialize();
 		
 		var status = SCORMstatuscheck();
@@ -36,7 +30,8 @@ var HomeState = {
 			SCORMsetValue("cmi.core.lesson_status", "incomplete");
 			SCORMdoLMSCommit();
 		}
-		this.game.stage.backgroundColor = '#000000';	
+		
+		this.game.stage.backgroundColor = '#c3f5fe';
 		
 		var bgmusic = this.game.add.audio('introAudio', 1, true);
 		bgmusic.play();;
@@ -61,8 +56,8 @@ var HomeState = {
 		
 			
 		var btnstart = this.game.add.image(0,0,'btnbegin');
-	btnstart.x = window.innerWidth/2 - btnstart.width/2 + 300;
-		btnstart.y = window.innerHeight/2 - btnstart.height/2 -160;
+		btnstart.right = intro.right - 10;
+		btnstart.bottom = intro.bottom - 100;
 		
 		btnstart.inputEnabled = true;
 		btnstart.events.onInputUp.addOnce(callGoToNextState);
@@ -82,7 +77,7 @@ var HomeState = {
 		
 			var btncont = this.game.add.image(0,0,'btncontinue');
 			btncont.right = intro.right - 10;
-			btncont.top = btnstart.top + 30;
+			btncont.top = btnstart.bottom + 10;
 			
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(continueNextState);
@@ -96,7 +91,6 @@ var HomeState = {
 		window.onresize = function(){ 
 			
 		};
-		
 		
 	}, 
 	

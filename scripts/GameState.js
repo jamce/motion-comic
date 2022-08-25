@@ -2,14 +2,9 @@
 
 var GameState = {
 
-	preload: function () {
-    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL ;
-    game.scale.pageAlignHorizontally = true;
-    game.scale.pageAlignVertically = true;
-    game.canvas.style.width = '100%';
-    game.canvas.style.height = '100%';
-    game.scale.refresh();
-},
+	preload: function(){
+		
+	},
 
 	init: function(bookmark){ 
 		//bookmark = 's119pC5pF7pB3pW4tC35tF47tB18tW23';
@@ -17,17 +12,15 @@ var GameState = {
 		if (bookmark){
 			
 		}
-
 	},
 	
-	create: function(){ 	
-		//this.game.world.setBounds(0,0,window.innerWidth, window.innerHeight);	
-	//this.scale.scaleMode = Phaser.ScaleManager.RESIZE;
+create: function(){ 	
+
 		var pagedata = _gc.pages[_gc.onpage];
 		_gc.onpage++;
 		
-		var adjWidth = (pagedata.pageW - window.innerWidth);
-		var adjHeight = (pagedata.pageH - window.innerHeight);
+		var adjWidth = (pagedata.pageW - window.innerWidth) / 2;
+		var adjHeight = (pagedata.pageH - window.innerHeight) / 2;
 
 
 			

@@ -1,4 +1,3 @@
-
 var _gc = {
 	
 	onpage: 0,
@@ -11,8 +10,8 @@ var _gc = {
 			title: 'Page One',
 			bg: 'chaseman_html_bg_dark.jpg',
 			bgcolor: '#000000',
-			pageH: window.innerHeight, 
-			pageW: window.innerWidth,
+			pageH: 768,
+			pageW: 1024,
 			pageAudio: 'pg1/noah_scene_music.mp3',
 			panels: [
 
@@ -28,8 +27,8 @@ var _gc = {
 					animend: 72,
 					framelength: 4,
 					animloop: false,
-					posX: 400,
-					posY: 160,
+					posX: 20,
+					posY: 30,
 					tween: true,
 					tweenprops: {
 						x: -2000
@@ -43,8 +42,8 @@ var _gc = {
 					title: 'box1',
 					type: 'box',
 					text: 'When time was new...',
-					posX: 380,
-					posY: 160,
+					posX: -5,
+					posY: 15,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -66,8 +65,8 @@ var _gc = {
 					animend: 60,
 					framelength: 4,
 					animloop: false,
-					posX: 360,
-					posY: 360,
+					posX: -40,
+					posY: 210,
 					tween: true,
 					tweenprops: {
 						y: 2000
@@ -84,8 +83,8 @@ var _gc = {
 					title: 'box2',
 					type: 'box',
 					text: 'in the world of |ARA|...',
-					posX: 630,
-					posY: 400,
+					posX: 240,
+					posY: 290,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -106,8 +105,8 @@ var _gc = {
 					animend: 130,
 					framelength: 4,
 					animloop: false,
-					posX: 650,
-					posY: 500,
+					posX: 260,
+					posY: 360,
 					tween: true,
 					tweenprops: {
 						y: 2000
@@ -121,8 +120,8 @@ var _gc = {
 					title: 'box3',
 					type: 'box',
 					text: 'There were |GIANTS|.',
-					posX: 700,
-					posY: 670,
+					posX: 260,
+					posY: 540,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -142,8 +141,8 @@ var _gc = {
 					animend: 35,
 					framelength: 4,
 					animloop: false,
-					posX: 1180,
-					posY: 480,
+					posX: 760,
+					posY: 320,
 					tween: true,
 					tweenprops: {
 						x: -2000
@@ -157,8 +156,8 @@ var _gc = {
 					title: 'bubble1',
 					type: 'bubble',
 					text: "Found |you!|",
-					posX: 1150,
-					posY: 640,
+					posX: 740,
+					posY: 460,
 					direction: 'right',
 					scaleX: .6,
 					scaleY: .6,
