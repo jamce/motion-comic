@@ -432,6 +432,11 @@ var GameState = {
 		var winheight = window.innerHeight;
 		
 		window.onresize = function(){
+			canvas {
+height: (browser innerHeight)
+}
+
+
 				var changeinX = window.innerWidth - winwidth;
 				var changeinY = window.innerHeight - winheight;
 				
