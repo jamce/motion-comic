@@ -263,6 +263,7 @@ create: function(){
 			var newitem;
 			if ( p.animated ){
 				newitem = this.game.add.sprite(0, 0, p.title);
+				newitem.anchor.setTo(.5)
 				newitem.animations.add('playing', Phaser.Animation.generateFrameNames(p.framenames, p.animstart, p.animend, '', p.framelength), 24, p.animloop, false);
 				if (!p.tween) { newitem.animations.play('playing') };
 			} else {
@@ -394,8 +395,8 @@ create: function(){
 			
 			var btncont = this.game.add.image(0,0,'btncont');
 			FORE.add(btncont);
-					btncont.x = window.innerWidth/2 - btncont.width/2 + 450;
-		btncont.y = window.innerHeight/2 - btncont.height/2 -400;
+					btncont.x = window.innerWidth - btncont.width - 10;
+		btncont.y = 10;
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(function(btn,pointer,isover){
 				onpanel++;

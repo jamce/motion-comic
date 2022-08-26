@@ -10,8 +10,8 @@ var _gc = {
 			title: 'Page One',
 			bg: 'chaseman_html_bg_dark.jpg',
 			bgcolor: '#000000',
-			pageH: 768,
-			pageW: 1024,
+			pageH: window.innerHeight,
+			pageW: window.innerWidth,
 			pageAudio: 'pg1/noah_scene_music.mp3',
 			panels: [
 
@@ -27,8 +27,8 @@ var _gc = {
 					animend: 72,
 					framelength: 4,
 					animloop: false,
-					posX: 20,
-					posY: 30,
+					posX: window.innerWidth / 2,
+					posY: window.innerHeight / 2 -150,
 					tween: true,
 					tweenprops: {
 						x: -2000
@@ -42,8 +42,8 @@ var _gc = {
 					title: 'box1',
 					type: 'box',
 					text: 'When time was new...',
-					posX: -5,
-					posY: 15,
+					posX: window.innerWidth / 2 -500,
+					posY: window.innerHeight / 2 - 340,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -65,8 +65,8 @@ var _gc = {
 					animend: 60,
 					framelength: 4,
 					animloop: false,
-					posX: -40,
-					posY: 210,
+					posX: window.innerWidth / 2  -450,
+					posY: window.innerHeight / 2 + 150,
 					tween: true,
 					tweenprops: {
 						y: 2000
@@ -83,8 +83,8 @@ var _gc = {
 					title: 'box2',
 					type: 'box',
 					text: 'in the world of |ARA|...',
-					posX: 240,
-					posY: 290,
+					posX: window.innerWidth / 2 -350,
+					posY: window.innerHeight / 2 - 50,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -105,8 +105,8 @@ var _gc = {
 					animend: 130,
 					framelength: 4,
 					animloop: false,
-					posX: 260,
-					posY: 360,
+					posX: window.innerWidth / 2 +20,
+					posY: window.innerHeight / 2 +200,
 					tween: true,
 					tweenprops: {
 						y: 2000
@@ -120,8 +120,8 @@ var _gc = {
 					title: 'box3',
 					type: 'box',
 					text: 'There were |GIANTS|.',
-					posX: 260,
-					posY: 540,
+					posX: window.innerWidth / 2 -200,
+					posY: window.innerHeight / 2 +200,
 					tween: true,
 					tweenprops: {
 						alpha: 0
@@ -141,8 +141,8 @@ var _gc = {
 					animend: 35,
 					framelength: 4,
 					animloop: false,
-					posX: 760,
-					posY: 320,
+					posX: window.innerWidth / 2 +480,
+					posY: window.innerHeight / 2 +240,
 					tween: true,
 					tweenprops: {
 						x: -2000
@@ -156,8 +156,8 @@ var _gc = {
 					title: 'bubble1',
 					type: 'bubble',
 					text: "Found |you!|",
-					posX: 740,
-					posY: 460,
+					posX: window.innerWidth / 2 +240,
+					posY: window.innerHeight / 2 +280,
 					direction: 'right',
 					scaleX: .6,
 					scaleY: .6,

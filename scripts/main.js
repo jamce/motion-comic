@@ -2,7 +2,7 @@
 
 var SCENE = "Scene One";
 
-var game = new Phaser.Game(1024, 768, Phaser.AUTO);
+var game = new Phaser.Game(window.innerHeight, window.innerHeight, Phaser.AUTO);
 
 game.state.add('GameState', GameState);
 game.state.add('BootState', BootState);

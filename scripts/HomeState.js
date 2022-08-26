@@ -6,10 +6,10 @@ var HomeState = {
 	},
 	
 	create: function(){	
-		window.document.getElementById('printBtn').style.display = "block";
+		//window.document.getElementById('printBtn').style.display = "block";
 	
 		/* SET BOUNDS ON A WORLD TO A SPECIFIC SIZE */
-		this.game.world.setBounds(0,0,1024,768);	
+		this.game.world.setBounds(0,0,1920,1080);	
 	
 		SCORMinitialize();
 		
@@ -56,8 +56,8 @@ var HomeState = {
 		
 			
 		var btnstart = this.game.add.image(0,0,'btnbegin');
-		btnstart.right = intro.right - 10;
-		btnstart.bottom = intro.bottom - 100;
+		btnstart.right = intro.right - 520;
+		btnstart.bottom = intro.bottom - 350;
 		
 		btnstart.inputEnabled = true;
 		btnstart.events.onInputUp.addOnce(callGoToNextState);
@@ -76,8 +76,8 @@ var HomeState = {
 		if (bookmark > 0){
 		
 			var btncont = this.game.add.image(0,0,'btncontinue');
-			btncont.right = intro.right - 10;
-			btncont.top = btnstart.bottom + 10;
+			btncont.right = intro.right - 520;
+			btncont.top = btnstart.bottom - 350;
 			
 			btncont.inputEnabled = true;
 			btncont.events.onInputUp.addOnce(continueNextState);

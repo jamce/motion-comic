@@ -5,9 +5,9 @@ var BootState = {
 	init: function(){
 		this.scale.scaleMode = Phaser.ScaleManager.RESIZE;
 		this.scale.fullScreenScaleMode = Phaser.ScaleManager.NO_SCALE;
-		this.scale.pageAlignHorizontally = this.scale.pageAlignVertically = false;
+		this.scale.pageAlignHorizontally = this.scale.pageAlignVertically = true;
 		
-		this.game.world.setBounds(0,0,1024,768);	
+		this.game.world.setBounds(0,0,window.innerWidth,window.innerHeight);	
 		this.game.width = window.innerWidth;
 		this.game.height = window.innerHeight;
 	},
